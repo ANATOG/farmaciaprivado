@@ -24,7 +24,7 @@
                         <div class="form-group row">
                             <div class="col-md-6">
                             {{$buscar=''}}
-                            {{ Form::open(array('url'=>'activo', 'method'=>'POST','autocomplete'=>'off','role'=>'search'))}}
+                            {{ Form::open(array('url'=>'activo', 'method'=>'get','autocomplete'=>'off','role'=>'search'))}}
                             <div class="input-group">
                                 <input type="search" class="form-control" name="buscar" placeholder="Buscar" value="{{$buscar}}">
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> Buscar</button>

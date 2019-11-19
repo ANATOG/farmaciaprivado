@@ -26,7 +26,7 @@
 
                         <div class="form-group row">
                             <div class="col-md-6">
-                            {!! Form::open(array('url'=>'venta','method'=>'POST','autocomplete'=>'off','role'=>'search')) !!} 
+                            {!! Form::open(array('url'=>'venta','method'=>'get','autocomplete'=>'off','role'=>'search')) !!} 
                                 <div class="input-group">
                                    
                                     <input type="text" name="buscarTexto" class="form-control" placeholder="Buscar texto" value="{{$buscar}}">

@@ -19,9 +19,7 @@ class CreateFarmaciasTable extends Migration
             $table->string('telefono', 20)->nullable();
             $table->string('email', 70)->nullable();
             $table->boolean('condicion')->default(1);
-            $table->string('direccion', 200)->unsigned();
-            $table->string('latitud', 200)->unsigned();
-            $table->string('longitud', 200)->unsigned();
+            $table->string('direccion', 200);
             $table->integer('idDepartamento')->unsigned();
             $table->foreign('idDepartamento')->references('id')->on('departamentos');
             $table->integer('idTipo')->unsigned();

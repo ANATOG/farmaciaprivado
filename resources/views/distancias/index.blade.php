@@ -20,7 +20,7 @@
                     <div class="card-body">
                         <div class="form-group row">
                             <div class="col-md-6">
-                            <form action="{{route('distancia.show','test')}}" method="get"  class="form-horizontal">
+                            <form action="{{route('distancia)}}" method="get"  class="form-horizontal">
                             <div class="input-group">
                                 <input type="search" class="form-control" name="buscar" placeholder="Buscar" value="{{$buscar}}">
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> Buscar</button>

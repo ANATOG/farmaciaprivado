@@ -28,18 +28,7 @@
             </select>        
         </div>                                       
     </div>
-    <div class="form-group row">
-        <label class="col-md-3 form-control-label" for="text-input">Longitud</label>
-        <div class="col-md-9">
-            <input type="text" class="form-control" placeholder="Longitud" id="longitud" name="longitud" required>
-        </div>
-    </div>
-    <div class="form-group row">
-        <label class="col-md-3 form-control-label" for="text-input">Latitud</label>
-        <div class="col-md-9">
-            <input type="text" class="form-control" placeholder="Latitud" id="latitud" name="latitud" required>
-        </div>
-    </div>
+    
     <div class="form-group row">
         <label class="col-md-3 form-control-label" for="text-input">Telefono</label>
         <div class="col-md-9">

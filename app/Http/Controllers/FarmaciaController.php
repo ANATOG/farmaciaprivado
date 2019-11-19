@@ -25,8 +25,8 @@ class FarmaciaController extends Controller
     {
         if ($request) {
             $sql=trim($request->get('buscar'));
-            $consulta="select f.id, f.nombre, f.telefono, f.email, f.direccion, f.latitud, f.capital, 
-            f.longitud, f.idDepartamento, f.idTipo, f.condicion,
+            $consulta="select f.id, f.nombre, f.telefono, f.email, f.direccion,  f.capital, 
+             f.idDepartamento, f.idTipo, f.condicion,
             (select t.nombre from tipos t where f.idTipo=t.id ) as Tipo, 
             (select x.nombre from departamentos x where x.id=f.idDepartamento)  as Departamento
             from farmacias f
@@ -62,8 +62,6 @@ class FarmaciaController extends Controller
         $farmacia->capital=$request->capital;
         $farmacia->email=$request->email;
         $farmacia->direccion=$request->direccion;
-        $farmacia->latitud=$request->latitud;
-        $farmacia->longitud=$request->longitud;
         $farmacia->condicion='1';
         $farmacia->save();
         return Redirect::to("farmacia");
@@ -87,8 +85,6 @@ class FarmaciaController extends Controller
         $farmacia->capital=$request->capital;
         $farmacia->email=$request->email;
         $farmacia->direccion=$request->direccion;
-        $farmacia->latitud=$request->latitud;
-        $farmacia->longitud=$request->longitud;
         $farmacia->condicion='1';
         $farmacia->save();
         return Redirect::to("farmacia");

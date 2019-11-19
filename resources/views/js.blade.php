@@ -500,8 +500,6 @@ $('#abrirmodalDistancia').on('show.bs.modal', function (event) {
                 var email_modal_editar = button.data('email')
                 var telefono_modal_editar = button.data('telefono')
                 var idTipo_modal_editar = button.data('idTipo')
-                var latitud_modal_editar = button.data('latitud')
-                var longitud_modal_editar = button.data('longitud')
                 var capital_modal_editar = button.data('capital')
                 var id_farmacia = button.data('id_farmacia')
                 
@@ -513,8 +511,6 @@ $('#abrirmodalDistancia').on('show.bs.modal', function (event) {
                 modal.find('.modal-body #email').val(email_modal_editar);
                 modal.find('.modal-body #telefono').val(telefono_modal_editar);
                 modal.find('.modal-body #idTipo').val(idTipo_modal_editar);
-                modal.find('.modal-body #latitud').val(latitud_modal_editar);
-                modal.find('.modal-body #longitud').val(longitud_modal_editar);
                 modal.find('.modal-body #capital').val(capital_modal_editar);
                 modal.find('.modal-body #id_farmacia').val(id_farmacia);
         })

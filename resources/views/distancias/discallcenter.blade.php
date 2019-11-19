@@ -12,10 +12,7 @@
                     <div class="card-header">
 
                        <h2>Distancias entre farmacias</h2><br/>
-                      
-                        <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#abrirmoDistancia">
-                        <i class="fas fa-plus-circle"></i>
-                        </button>
+             
                     </div>
                     <div class="card-body">
                         <div class="form-group row">

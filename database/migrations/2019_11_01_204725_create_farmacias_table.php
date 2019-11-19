@@ -24,6 +24,7 @@ class CreateFarmaciasTable extends Migration
             $table->foreign('idDepartamento')->references('id')->on('departamentos');
             $table->integer('idTipo')->unsigned();
             $table->foreign('idTipo')->references('id')->on('tipos');
+            $table->decimal('capital', 10,2);
             $table->timestamps();
         });
     }

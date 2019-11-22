@@ -6,7 +6,7 @@ use App\Responsabilidad;
 use Carbon\Carbon;
 use \PDF;
 use App\Gasto;
-use Illuminate\support\Facades\Redirect;
+use Illuminate\Support\Facades\Redirect;
 use DB;//hacer referencia a DB
 
 class GastoController extends Controller

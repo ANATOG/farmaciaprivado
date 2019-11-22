@@ -8,7 +8,7 @@ use App\Medicamento;
 
 use App\Farmacia;
 
-use Illuminate\support\Facades\Redirect;//para que redirecciona a la vista
+use Illuminate\Support\Facades\Redirect;//para que redirecciona a la vista
 
 use DB;//hacer referencia a DB
 use \PDF;

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Cliente;
 
-use Illuminate\support\Facades\Redirect;//para que redirecciona a la vista
+use Illuminate\Support\Facades\Redirect;//para que redirecciona a la vista
 
 use DB;//hacer referencia a DB
 

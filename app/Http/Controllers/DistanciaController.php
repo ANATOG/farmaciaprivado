@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Distancia;
 
 use DB;
-use Illuminate\support\Facades\Redirect;
+use Illuminate\Support\Facades\Redirect;
 
 class DistanciaController extends Controller
 {

@@ -6,7 +6,7 @@ use App\Responsabilidad;
 use Carbon\Carbon;
 use \PDF;
 use App\Intercambio;
-use Illuminate\support\Facades\Redirect;
+use Illuminate\Support\Facades\Redirect;
 use DB;//hacer referencia a DB
 
 class IntercambioController extends Controller

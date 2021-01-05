@@ -95,7 +95,7 @@ class VentaController extends Controller
             $namec=$t->nombre;
 		}
        
-        DB::select('call llenado_totales(?,?,?,?)', [$namec,$venta->numventa, $venta->total,$venta->fecha_venta]);
+        DB::statement('call llenado_totales(?,?,?,?)', [$namec,$venta->numventa, $venta->total,$venta->fecha_venta]);
 
         $id_producto=$request->id_productoc;
         $cantidad=$request->cantidadc;
